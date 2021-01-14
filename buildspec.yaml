@@ -1,0 +1,30 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Entered the install phase...
+      - apt-get -qq update && apt-get -qq install curl
+      - apt-get -qq install asciidoctor
+      - curl --location https://github.com/gohugoio/hugo/releases/download/v0.80.0/hugo_extended_0.80.0_Linux-64bit.deb -o hugo.deb
+      - ls -sh
+      - dpkg -i hugo.deb
+      - echo hugo version
+    finally:
+      - echo Installation done
+  build:
+    commands:
+      - echo Entered the build phase ...
+      - echo Build started on `date`
+      - cd $CODEBUILD_SRC_DIR
+      - rm -f buildspec.yml && rm -f .git && rm -f README.md
+      - git init
+      - git submodule add https://github.com/ineesalmeida/almeida-cv  themes/almeida-cv
+      - hugo --debug
+    finally:
+      - echo Building the HTML files finished
+artifacts:
+  files:
+    - "**/*"
+  base-directory: $CODEBUILD_SRC_DIR/public/
+  discard-paths: no
