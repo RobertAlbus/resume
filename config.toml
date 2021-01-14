@@ -1,0 +1,14 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+theme = "almeida-cv"
+title = "Example - CV"
+
+[params]
+colorDark = "#2E3532"
+colorLight = "#F4F6F5"
+colorPageBackground = "#ddd"
+colorPrimary = "#7E9181"
+colorPrimaryText = "#fff"
+colorRightColumnBackground = "#EBECFE"
+colorSecondary = "#aaa"
+pages = 1
