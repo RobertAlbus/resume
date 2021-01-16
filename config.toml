@@ -1,4 +1,4 @@
-baseURL = "https://d3e6flv7d47xf4.cloudfront.net/"
+baseURL = "/"
 languageCode = "en-us"
 theme = "almeida-cv"
 title = "Example - CV"
