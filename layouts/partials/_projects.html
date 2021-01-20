@@ -1,0 +1,32 @@
+{{ if .Site.Data.content.Projects }}
+<div id="projects" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">
+            Projects
+        </h2>
+    </div>
+    <div class="section__content">
+        {{ range .Site.Data.content.Projects }}
+            <div class="project__item">
+                <h3 class="project__title">{{ .Project | safeHTML }}</h3>
+                {{ if .Repo }}
+                <div class="project__repo">
+                    <a href={{.Repo}}>Repository</a>
+                </div>
+                {{ end }}
+                <p class="project__description">{{ .Description | safeHTML }}</h4>
+                
+                
+                
+                <div class="experience__badges">
+                    <ul>
+                      {{ range .Tools }}
+                      <li class="experience__badge">{{ . }}</li>
+                      {{ end }}
+                    </ul>
+                  </div>
+            </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

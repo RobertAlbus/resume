@@ -41,18 +41,22 @@ Experience:
           - "Web foundations: HTML, CSS, TS/JS, ES6, Node"
           - "Frameworks: Angular, Sass, Ruby on Rails"
           - "Infrastructure and deployment: AWS, serverless hosting and APIs, CDK, AWS-CLI"
-        Badges: ["Linux", "AWS", "CDK", "HTML, CSS, JS", "Node", "Typescript"]
+        //Badges: ["Linux", "AWS", "CDK", "HTML, CSS, JS", "Node", "Typescript"]
 
 Projects:
-  - Project: Continuous Integration and Deployment Pipeline for Static Websites
-    Description: CI and rolling release for multiple static websites, created with Infrastructure as Code.
-    Tools: ["CDK", CodePipeline et al", "S3", "Cloudfront",]
-    Repo: 
-    LiveUrl:
+  - Project: CICD Pipeline for Static Websites
+    Description: CI and rolling release for multiple static websites, created with Infrastructure as Code
+    Tools: ["CDK", "CodePipeline", "S3", "Cloudfront",]
+    Repo: test
+  - Project: Serverless Contact Form Endpoint
+    Description: Publicly accessible API endpoint with configurable rate limit throttling.  
+    Tools: ["CDK", "Lambda", "DynamoDB", "SES",]
+    Repo: test
   - Project: Serverless Event Listing Website
     Description: Angular client application and FaaS API for managing and displaying event posters.
     Tools: ["CDK", "Angular 7", "Lambda", "Cognito", "DynamoDB", "S3", "CloudFront", "Route53"]
-
+    Repo: 
+    
     
 Skills:
   - Family: Programming

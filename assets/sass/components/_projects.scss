@@ -1,0 +1,39 @@
+.project {
+  
+
+  &__item {
+    position: relative;
+    transition: transform 0.2s cubic-bezier($cubic);
+    
+    &:hover {
+      transform: translateX(0.5rem);
+    }
+  }
+  
+  &__title {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: $color-grey-dark;
+    width: 70%;
+    display: inline-block;
+  }
+
+  &__repo {
+    display: inline-block;
+    width: 29%;
+    text-align: right;
+    
+    a {
+      color: $color-primary;
+      text-align: right;
+
+      &:hover {
+        color: $color-grey-dark;
+        transition-duration: .2s;
+      }
+    }
+    
+
+    
+  }
+}
