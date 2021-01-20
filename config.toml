@@ -1,7 +1,8 @@
-baseURL = "/"
+baseURL = "resume.robertalbus.com"
+relativeURLs = true
 languageCode = "en-us"
 theme = "almeida-cv"
-title = "Example - CV"
+title = "Resume - Robert Albus"
 
 [params]
 colorDark = "#2E3532"

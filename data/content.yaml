@@ -3,8 +3,6 @@ BasicInfo:
   LastName: Albus
   Photo: img/avatar.jpg
   Contacts:
-    - Icon: fas fa-phone
-      Info: +44 123 456 789
     - Icon: fas fa-envelope
       Info: hello@robertalbus.com
     - Icon: fas fa-globe
@@ -12,106 +10,79 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: Canada
 
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Profile: AWS Certified Solution Architect and full stack developer interested in cloud-native development in the AWS ecosystem. Experience with  CDK / CloudFormation, TypeScript, Node, C# and .NET, Linux.
 
 Experience:
-  - Employer: Super Cool Company
-    Place: Oxford, UK
+  - Employer: Fishtank Consulting
+    Place: Calgary, Canada
     Positions:
-      - Title: Software Engineer
-        Date: Jan 2020 - Present
+      - Title: Full Stack Developer
+        Date: Jun 2019 - Current
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges:
-          ["Python", "Django", "OOP", "Javascript", "HTML", "CSS", "Agile"]
-      - Title: Software Tester
-        Date: Mar 2019 - Jan 2020
-        Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ["Python", "BDD", "Selenium", "OOP", "Agile"]
-  - Employer: Another super cool company
-    Place: Lisbon, PT
+          - .NET CMS implementations, upgrades, and new features
+          - Built internal tooling, delivered presentations, and contributed to new remote-work communication best practices.
+        Badges: ["C#/.NET", "Sitecore CMS", "Sass"]
+  - Employer: Kontralto Technologies
+    Place: Canada
     Positions:
-      - Title: Flow Cytometry Resource Specialist
-        Date: Jan 2018 - Mar 2019
+      - Title: Project Manager P/T
+        Date: Sept 2020 - Present
         Details:
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ["Python", "HTML", "CSS", "C#/Unity"]
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
+          - Create project documents such as proposals, scope documents, statements of work
+          - Create client status updates
+          - Create wiki and website, maintain internal documentation
+  - Employer: Career Change
+    Place: Canada
     Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
+      - Title: Self-directed study and projects
+        Date: Apr 2018 - Jun 2019
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ["Python", "MATLAB", "Data Processing", "Paradigm Design"]
+          - "Linux: Ubuntu, Arch/Manjaro, command line, Xorg, Vim"
+          - "Web foundations: HTML, CSS, TS/JS, ES6, Node"
+          - "Frameworks: Angular, Sass, Ruby on Rails"
+          - "Infrastructure and deployment: AWS, serverless hosting and APIs, CDK, AWS-CLI"
+        Badges: ["Linux", "AWS", "CDK", "HTML, CSS, JS", "Node", "Typescript"]
 
-Education:
-  - Course: BSc & MSc in Biomedical Engineering and Biophysics
-    Place: University of Lisbon
-    Date: Sep 2012 - Nov 2017
-    Details: Specialised in data analysis
+Projects:
+  - Project: Continuous Integration and Deployment Pipeline for Static Websites
+    Description: CI and rolling release for multiple static websites, created with Infrastructure as Code.
+    Tools: ["CDK", CodePipeline et al", "S3", "Cloudfront",]
+    Repo: 
+    LiveUrl:
+  - Project: Serverless Event Listing Website
+    Description: Angular client application and FaaS API for managing and displaying event posters.
+    Tools: ["CDK", "Angular 7", "Lambda", "Cognito", "DynamoDB", "S3", "CloudFront", "Route53"]
 
+    
 Skills:
   - Family: Programming
     Items:
-      - Python
-      - HTML (including Jinja)
-      - Javascript
-      - CSS
-      - SASS
-      - SQL
       - C#
+      - Typescript / Javascript
+      - HTML and templating
+      - CSS/SASS
       - Bash
-      - MATLAB
+      - Node
   - Family: Frameworks
     Items:
-      - Django
-      - Flask
+      - Angular
+      - Express
       - Hugo
-      - React
+      - .NET
   - Family: Developer Tools
     Items:
       - Git
-      - Docker
-      - Jenkins
-      - AWS
-  - Family: Misc
-    Items:
-      - Adobe Tools
-      - LaTeX
+      - AWS CLI
+      - Azure Devops
 
-Languages:
-  - Name: Portuguese
-    Level: Native
-  - Name: English
-    Level: C2
-  - Name: Spanish
-    Level: B1
-  - Name: German
-    Level: B1
+Certifications:
+  - AWS Certified Solution Architect Associate 
 
-Diplomas:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
 
 Interests:
-  - Bouldering
   - Cooking
-  - Windsurfing
-  - Bossa Nova
+  - Cycling
   - Design
-  - Languages
+  - Gardening
+  - Coffee
+  - Construction
